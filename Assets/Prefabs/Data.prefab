@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &116955987573057553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 116955987573057552}
+  - component: {fileID: 116955987573057559}
+  m_Layer: 0
+  m_Name: Data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &116955987573057552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116955987573057553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &116955987573057559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116955987573057553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e56a9e74258ff145a516c4d62520fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 0
+  avatarMaterials: []
+  sacredIconMaterials: []
+  motivationMaterial: {fileID: 2100000, guid: 2512f2bd47c59c4439b7aa9408637b10, type: 2}
+  situationMaterial: {fileID: 2100000, guid: e4bff65ae86f7454fbc2af1938b083a6, type: 2}
+  itemMaterial: {fileID: 2100000, guid: 82510d6d73a22a241b2eeed920551fa0, type: 2}
+  placeMaterial: {fileID: 2100000, guid: 6aef05f5cda6a8e488dd69c23d65c64c, type: 2}
+  logicMaterial: {fileID: 2100000, guid: b8ae5b79fcc3bf544bd25e0cc800f0c0, type: 2}
+  glyphs: []
+  occupations: []
+  syllablePacks: []
+  roundPresets: []
+  reactions: []
+  deitySprites: []
+  avatarPrefab: {fileID: 2082627011496954089, guid: 4fa85edddc7220541815d1fa43be8b4c, type: 3}
+  bubblePrefab: {fileID: 3638330943377189900, guid: c6aad73854a772047adc3585612b5b47, type: 3}
+  iconPrefab: {fileID: 3765935362571053680, guid: 7f7b7a3ec747875459cbcd30f0011fa7, type: 3}
+  sacredIconPrefab: {fileID: 8081566038190106139, guid: 734961d7db1d2ea42b56c283a237a0ff, type: 3}
+  disappearEffectPrefab: {fileID: 6703975551412111630, guid: b7d949e9c7cdeee47b1d5d7d2b98b7db, type: 3}
+  fadePrefab: {fileID: 2374868833302921588, guid: 7f3d4f917c81c844dab0ca83befd99e0, type: 3}
+  episodePrefab: {fileID: 7605682329619002137, guid: 0ddd659f34582624c979a9cc485df5b5, type: 3}
+  okButtonPressed: {fileID: 8300000, guid: 84fac0992940ff0488abb94b5d8ff493, type: 3}
+  noButtonPressed: {fileID: 8300000, guid: 37caa9aebf282a643a7a0690daf95b30, type: 3}
+  iconSelectionClip: {fileID: 8300000, guid: 84fac0992940ff0488abb94b5d8ff493, type: 3}
+  sacredIconSelectionClip: {fileID: 8300000, guid: 84fac0992940ff0488abb94b5d8ff493, type: 3}
+  unselectionClip: {fileID: 8300000, guid: 37caa9aebf282a643a7a0690daf95b30, type: 3}
+  iconSpawnClip: {fileID: 8300000, guid: 03cb66152b10594478e72874b9705ac2, type: 3}
+  turnCooldown: 0
+  selectionCooldown: 0.5
+  collisionCooldown: 0.05
+  pushStrength: 30
+  chanceOfSpeaking: 0.5
+  itemDescriptionEng: 
+  itemDescriptionSpa: 
+  motivationDescriptionEng: 
+  motivationDescriptionSpa: 
+  situationDescriptionEng: Situation
+  situationDescriptionSpa: "Situaci\xF3n"
+  placeDescriptionEng: 
+  placeDescriptionSpa: 
+  splashBuildIndex: 0
+  mainBuildIndex: 1
+  syllablePack:
+  - A
+  - Va
+  - Ka
+  - Tu
+  - E
+  - Te
+  - Nde
+  - Mbo
+  - Mbe
+  - Mby
+  - Ru
+  - Ta
+  - Kua
+  - Rem
+  - "B\xF3"
+  - "\xD1e"
+  - Ka
+  - Rai
+  - Ku
+  - "\xD1a"

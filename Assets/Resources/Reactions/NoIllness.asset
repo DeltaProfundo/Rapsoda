@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0872f33948b8f9f4781d85ed6349d1a4, type: 3}
+  m_Name: NoIllness
+  m_EditorClassIdentifier: 
+  ingredients:
+  - {fileID: 11400000, guid: 1f3d4dc3a0f33c44082c0825cc380717, type: 2}
+  - {fileID: 11400000, guid: 0561b3dfcf8230e44b6e52277bfd581a, type: 2}
+  result: {fileID: 11400000, guid: 4b0065846224a344583176c6a334069f, type: 2}
